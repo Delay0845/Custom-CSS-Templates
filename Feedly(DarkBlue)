@@ -1,0 +1,130 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+:root {
+        --main-bg-color: #2D3E4F;
+        --link-color: #C7C7C7;
+        --link-hover-color: #4D5B68;
+        --white-5: rgba(255, 255, 255, 0.05);
+        --white-15: rgba(255, 255, 255, 0.15);
+        --white-30: #707070;
+        --white-70: rgba(255, 255, 255, 0.70);
+        --white-100: rgba(255, 255, 255, 1);
+    }
+    #searchBarFX,
+    .fixed-bar,
+    #headerBarFX header,
+    #feedlyPageHolderFX,
+    .floatingEntryScroller,
+    .entryholder,
+    .headerInfo,
+    #box,
+    .home,
+    BODY.home {
+        background: var(--main-bg-color) !important;
+        background-color: var(--main-bg-color) !important;
+    }
+    .fx.popover, 
+    .fx .popover {
+        background-color: var(--main-bg-color) !important;
+    }
+    BODY.home,
+    .entryBody,
+    .entryBody h2,
+    .entryBody div h2,
+    .entryBody h3,
+    .entryBody div h3,
+    .entryBody h4,
+    .entryBody div h4,
+    .entryBody .summary b, 
+    .entryBody .content b,
+    .fx .form .field label, 
+    .fx .form .field .label, 
+    .fx .picker .item-header,
+    .fx .menu .item,
+    .fx section h2,
+    .preference-sections h3,
+    .preference-sections p, 
+    .preference-sections .fx 
+    .feed-preview ul,
+    .fx .feed-preview .preference-sections ul {
+        color: var(--white-70) !important;
+    }
+    .entryBody a {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px dotted var(--link-color) !important;
+    }
+    .entryBody a:hover {
+        color: var(--white-100);
+        text-decoration: none;
+        border-bottom: 1px dotted var(--link-hover-color) !important;
+    }
+    .entryBody a:visited {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px dotted var(--text-color) !important;
+    }
+    .inlineFrame .title,
+    .fx .entry.unread .title {
+        color: var(--link-color) !important;
+    }
+    .inlineFrame .title.read,
+    .fx .entry a.title,
+    .fx .presentation-100 .inlineFrame.read .title,
+    .slideEntryContent .u100Entry .title {
+        color: var(--white-30) !important;
+    }
+    .fx .inlineFrame.selected {
+        border: 1px solid var(--white-15) !important;
+    }
+    .fx .inlineFrame {
+        border: 1px solid var(--white-5) !important;
+    }
+    .metadata,
+    .authors {
+        color: var(--white-30) !important;
+    }
+    .metadata a {
+        color: var(--link-color) !important;
+    }
+    .fx h1,
+    .fx h1 .heading a,
+    .fx .item-header, 
+    .fx-item-header {
+        color: var(--white-30) !important;
+    }
+    .fx h2, 
+    h2.fx, 
+    .fx-h2 {
+        color: var(--white-30) !important;
+    }
+    .fx .entry.u0 {
+        border-top: 1px solid var(--white-15) !important;
+    }
+    .fx .entry.u0:hover {
+        background-color: var(--white-15) !important;
+    }
+    .floatingEntryContent .headerInfo {
+        border-bottom: 1px solid var(--white-5) !important;
+    }
+    .slideEntryContent img,
+    .u100Entry img {
+        border-color: var(--white-5) !important;
+    }
+    .entryholder .fx-button.secondary.visitWebsiteButton { border-color: var(--white-5) !important;
+    }
+    .fx .entry.u4 {
+        border-color: transparent !important;
+    }
+    .headerInfo-expanded-img,
+    .fx .inlineFrame .close-button,
+    .button-icon-only,
+    .icon-toolbar-markasread-secondary,
+    .condensed-toolbar-icon,
+    .save-for-later,
+    .feedly-logo,
+    .slideBumper {
+        filter: invert(100%) !important;
+    }
+    .empty-state img {
+        filter: opacity(80%) !important;
+    }
